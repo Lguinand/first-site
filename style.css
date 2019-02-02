@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+body{
+    background-color: yellow;
+    font-family: 'Arial', sans-serif;
+    color: teal
+}
+h1{
+    border: 4px dotted darkblue; 
+    text-align: center;
+    font-family: "Major Mono Display", monospace;
+}
+h2 {
+    color: darkblue;
+    font-size: 3opx;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.centered{
+    text-align: center;
+}
+.faded {
+    opacity: 0.5;
+}
+.orange-underlined {
+    color: orange;
+    text-decoration: underline;
+}
+.blue-italic {
+    color: blue;
+    font-style: italic;
+}
+.red-bold {
+    color: red;
+    font-weight: bold;
+}
+.background-gray{
+    background-color: gray;
+}
+.background-siena{
+    background-color: sienna
+}
+.border{
+    border: 3px plum dotted;
+}
+img {
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+li {
+    border-top: 3px green;
+    padding: 10px;
+    display: inline;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
